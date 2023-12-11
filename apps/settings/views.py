@@ -10,5 +10,4 @@ def index2(request):
 def index3(request):
     return render(request, 'index-kenburns.html', locals())
 
-def index4(request):
-    return render(request, 'index-slideshow.html', locals())
+
